@@ -7,34 +7,3 @@
 html {
   font-size: 18px;
 }
-
-body {
-  font-family: Helvetica;
-  /*background-color: black;*/
-  color: white;
-}
-
-.sitecontainer {
-  width: 960px;
-}
-
-/* Begin Header */
-
-.logoinfo {
-  background-color: black;
-}
-
-.logoinfo .sitecontainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  heigth: 1.5rem;
-  padding: 0.66rem 0.66rem;
-}
-
-.sitecontainer img {
-  padding-right: 1rem;
-  padding-left: 0.5rem;
-}
-
-/* End Header */
