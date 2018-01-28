@@ -1,3 +1,5 @@
+/* Begin Universal Styles */
+
 * {
   margin: 0px;
   padding: 0px;
@@ -7,3 +9,20 @@
 html {
   font-size: 18px;
 }
+
+body {
+  font-family: Helvetica;
+  background-color: black;
+  color: white;
+}
+
+.sitecontainer {
+  width: 960px;
+  margin: 0 auto;
+}
+
+*/ End Universal Styles */
+
+*/ Begin Header */
+
+*/ End Header */
