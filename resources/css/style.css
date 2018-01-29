@@ -38,6 +38,11 @@ header img {
   padding-left: 0.5rem;
 }
 
+.maininfotext {
+  width: 20rem;
+  background-color: black;
+}
+
 /* End Header */
 
 /* Begin Main Info */
@@ -48,3 +53,24 @@ header img {
 }
 
 /* End Main Info */
+
+/* Begin Navigation */
+
+.navigation {
+  background-color: firebrick;
+}
+
+.navitems {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.navitems span a {
+  color: white;
+  text-decoration: none;
+}
+
+}
+/* End Navigagion */
