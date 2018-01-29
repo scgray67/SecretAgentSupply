@@ -101,3 +101,14 @@ header img {
 }
 
 /* End Product Grid */
+
+/* Begin Footer */
+
+footer {
+  background-color: black;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+}
+
+/* End Footer */
