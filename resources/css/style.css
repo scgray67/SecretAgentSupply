@@ -12,8 +12,8 @@ html {
 
 body {
   font-family: Helvetica;
-  background-color: tan; /* Remove later, used for testing */
-  color: white; /* Remove later, used for testing */
+  /* background-color: tan; Remove later, used for testing */
+  /*  color: white; Remove later, used for testing */
 }
 
 .sitecontainer {
@@ -78,29 +78,60 @@ header img {
 
 /* Begin Product Grid */
 
-.productgrid {
-  background-color: white;
-}
-
 .products {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
-  align-items: flex-start;
-}
-
-.penimage, .watchimage, .glassesimage {
-  border: 4px solid black;
-  width: 30%;
   margin-top: 3rem;
 }
 
-.products span {
-  color: white;
+.product {
+  width: 30%;
+}
+
+.product-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 9rem;
+  padding: 2rem 0;
+  border: 4px solid black;
+}
+
+.product-image img {
+  max-width: 8rem;
+}
+
+.description {
+  display: block;
+  padding: 0.5rem;
   background-color: black;
+  text-align: center;
+  color: white;
 }
 
 /* End Product Grid */
+
+/* Begin Location and Hours */
+
+.business-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+.info {
+  width: 35%;
+}
+
+.info .title {
+  display: block;
+  padding: 1rem 2rem;
+  background-color: black;
+  color: white;
+}
+
+/* End Locaion and Hours */
 
 /* Begin Footer */
 
@@ -109,6 +140,7 @@ footer {
   height: 5rem;
   display: flex;
   align-items: center;
+  color: white;
 }
 
 /* End Footer */
